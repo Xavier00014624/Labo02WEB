@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fdfdfd;
+}
+
+.page {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.item {
+    background: orange;
+    border: 2px solid #333;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+
+.item-1 {
+    grid-column: span 2;
+}
+.item-2 {
+    grid-column: span 1;
+}
+.item-3 {
+    grid-column: span 1;
+}
+.item-4 {
+    grid-column: span 2;
+}
+.item-5 {
+    grid-column: span 1;
+}
+.item-6 {
+    grid-column: span 1;
+}
+.item-7 {
+    grid-column: span 2;
+}
+.item-8 {
+    grid-column: span 1;
+}
+.item-9 {
+    grid-column: span 1;
+}
